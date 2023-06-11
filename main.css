@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffeae6;
+}
+
+header {
+    transition: 2s;
+}
+
+header.rolagem {
+    background-color: grey;
+    padding: 0px 1%;
+}
+
+header.rolagem a, header.rolagem li {
+    color: #e15f41;
+}    
+
+.container {
+    margin-top: -20px;
+}
+
+.navbar {
+    min-height: 20px; /*define a altura para o banner*/
+}
+
+.navbar-brand img {
+    height: 180px; /*define a altura para o logo*/
+}
+
+.navbar-collapse {
+    justify-content: flex-end; /*alinha os itens do menu a direita */
+    
+}
+
+.navbar-nav .nav-link { /*configura as letras do menu*/
+    color:#fff;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav .nav-item {
+    margin-right:40px; /*aumenta o espaçamento desejado no menu*/
+}
+
+.carousel-item img {
+    height: 625px; /*define a altura para a imagem do banner*/
+    margin: auto;
+}
+
+.navbar-brand,
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#A-Escola, #agenda, #contato {
+    background-color: #ffeae6;
+    height: 500px;
+}
+
+.text-colored {
+    color: #e15f41;
+}
+
+.social-links {
+    cursor: pointer;
+    color:black;
+}
+.social-links li {
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+
